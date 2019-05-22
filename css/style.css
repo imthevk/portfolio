@@ -1,0 +1,85 @@
+body{
+    font-size: 14px;
+    margin: 0px;
+    color: #333;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+.slides-navigation .prev,
+.slides-navigation .next {
+    width:45px;
+    height: 45px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slides-navigation{
+    z-index: 5;
+}
+.slides-navigation a.prev{
+left: 20px;
+background-image: url(../icons/pre.png);
+}
+.slides-navigation a.next{
+right: 20px;
+background-image: url(../icons/next.png);
+}
+.title{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -125px;
+    color: white;
+    height: 250px;
+    z-index: 5;
+    text-align: center;
+}
+.heading p {
+    color: #ffffff;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    font-weight: 100;
+    letter-spacing: 7px;
+}
+.main {
+    font-size: 50px;
+}
+.section{
+    padding: 100px 0;
+    
+}
+.aboutimg{
+    max-width: 70%;
+}
+.skillsSection{
+background-color: #e74c3c;
+color: #fff;
+}
+.skill{
+    text-align: center;
+    margin-left: 10px;
+    
+}
+.chart{
+    position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    text-align: center;
+}
+.chart canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.chart .percent{
+color: #000;
+line-height: 152px;
+display: inline-block;
+font-size: 35px;
+
+}
+.chart .percent:after{
+    content: '%';
+}
+.abt{
+font-size: 30px;
+}
